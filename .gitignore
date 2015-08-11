@@ -1,7 +1,6 @@
 README.html
 Recover.log
-webviews/.gitignore
-webviews/.git/**
-webviews/node_modules/**
-webviews/bower_components/**
-webviews/Import.log
+gulpRecipes/node_modules/**
+gulpRecipes/bower_components/**
+gulpRecipes/Import.log
+fmpGulpRecipes.sublime-project
