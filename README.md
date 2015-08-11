@@ -1,4 +1,4 @@
-# fileSystem
+# fileSystem + gulpTasks
 >A Functional Approach to working with external files in FileMaker
 
 ---
@@ -23,9 +23,10 @@ appArchitecture
 
 ---
 ###Roadmap:
-0.1: basic fileSystem commands (read, write, list dir + files, UI first draft)
-0.2: Gulp integration
-0.3: Code editor
-0.4:
-0.5:
-0.6: Add datomicFilemaker dependency to keep a stream of all modifications to files + possibility to go back in time or consult previous configs if setting is ON.
+
+- 0.1: basic fileSystem commands (read, write, list dir + files, UI first draft)
+- 0.2: Gulp integration
+- 0.3: Code editor
+- 0.4:
+- 0.5:
+- 0.6: Add datomicFilemaker dependency to keep a stream of all modifications to files + possibility to go back in time or consult previous configs if setting is ON.
