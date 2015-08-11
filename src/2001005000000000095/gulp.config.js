@@ -1,6 +1,6 @@
 module.exports = function(){
 
-	var client = './src/2001005000000000084/';
+	var client = './src/2001005000000000095/';
 	var clientApp = client + 'app';
 	var server = './express-server-template';
 	var temp = './.tmp/';
