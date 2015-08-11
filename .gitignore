@@ -1,6 +1,7 @@
 README.html
 Recover.log
-gulpRecipes/node_modules/**
-gulpRecipes/bower_components/**
-gulpRecipes/Import.log
+node_modules/**
+bower_components/**
+Import.log
 fmpGulpRecipes.sublime-project
+fmpGulpRecipes.sublime-workspace
