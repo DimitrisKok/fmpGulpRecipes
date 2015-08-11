@@ -14,3 +14,36 @@
 2015-08-10 15:15:29.313 -0400	fileSystem.fmp12	0	Import completed
 2015-08-10 15:16:39.092 -0400	fileSystem.fmp12	0	Import operations committed
 2015-08-10 15:16:39.094 -0400	fileSystem.fmp12	0	==================================================================
+2015-08-11 05:45:30.645 -0400	fileSystem.fmp12	0	Import operations started
+2015-08-11 05:45:30.645 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 05:45:30.684 -0400	systemState::zSCHEMA_prototypeID	106	Table referred to in the calculation “prototype::prototypeID” is missing.
+2015-08-11 05:45:30.686 -0400	systemState	0	fields imported : 30
+2015-08-11 05:45:30.686 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 05:45:47.452 -0400	fileSystem.fmp12	0	Import operations committed
+2015-08-11 05:45:47.452 -0400	fileSystem.fmp12	0	==================================================================
+2015-08-11 05:47:32.419 -0400	fileSystem.fmp12	0	Import operations started
+2015-08-11 05:47:32.420 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 05:47:32.428 -0400	ui::yEVAL	106	Table referred to in the calculation “Left( zUpdate ; 0 ) & If( Length( EVALfn ) ; EVALfn ; webViewUI::yEVAL )” is missing.
+2015-08-11 05:47:32.437 -0400	ui::zSCHEMA_prototypeID	106	Table referred to in the calculation “prototype::prototypeID” is missing.
+2015-08-11 05:47:32.439 -0400	ui	0	fields imported : 19
+2015-08-11 05:47:32.439 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 05:50:31.760 -0400	fileSystem.fmp12	0	Import operations committed
+2015-08-11 05:50:31.761 -0400	fileSystem.fmp12	0	==================================================================
+2015-08-11 05:50:59.505 -0400	fileSystem.fmp12	0	Import operations started
+2015-08-11 05:50:59.506 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 05:50:59.519 -0400	fileSystemUI	0	fields imported : 17
+2015-08-11 05:50:59.520 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 05:53:48.586 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 05:53:48.588 -0400	file	0	fields imported : 1
+2015-08-11 05:53:48.588 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 05:54:47.233 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 05:54:47.237 -0400	file	0	fields imported : 4
+2015-08-11 05:54:47.238 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 05:55:31.210 -0400	fileSystem.fmp12	0	Import operations committed
+2015-08-11 05:55:31.210 -0400	fileSystem.fmp12	0	==================================================================
+2015-08-11 10:15:53.492 -0400	fileSystem.fmp12	0	Import of themes from file “betternessBookkeeping.fmp12” started
+2015-08-11 10:15:53.534 -0400	fileSystem.fmp12	0	themes imported : 1
+2015-08-11 10:15:53.535 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 10:16:09.796 -0400	fileSystem.fmp12	0	Import of themes from file “beezwaxDemo.fmp12” started
+2015-08-11 10:16:09.939 -0400	fileSystem.fmp12	0	themes imported : 3
+2015-08-11 10:16:09.940 -0400	fileSystem.fmp12	0	Import completed
