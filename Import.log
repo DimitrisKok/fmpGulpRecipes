@@ -1,0 +1,16 @@
+﻿Timestamp	Filename	Error	Message
+2015-07-20 16:30:04.340 -0400	fileSystem.fmp12	0	Import of themes from file “DM-SVG_HelperTool.fmp12” started
+2015-07-20 16:30:04.383 -0400	fileSystem.fmp12	0	themes imported : 1
+2015-07-20 16:30:04.383 -0400	fileSystem.fmp12	0	Import completed
+2015-07-20 17:04:00.276 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-07-20 17:04:00.278 -0400	writeContentToFile( append )	0	script steps imported : 1
+2015-07-20 17:04:00.278 -0400	fileSystem.fmp12	0	Import completed
+2015-07-20 17:04:07.981 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-07-20 17:04:07.983 -0400	writeContentToFile( append )	0	script steps imported : 1
+2015-07-20 17:04:07.983 -0400	fileSystem.fmp12	0	Import completed
+2015-08-10 15:15:06.142 -0400	fileSystem.fmp12	0	Import operations started
+2015-08-10 15:15:29.233 -0400	fileSystem.fmp12	0	Import of custom functions from file “webViews.fmp12” started
+2015-08-10 15:15:29.312 -0400	fileSystem.fmp12	0	custom functions imported : 35
+2015-08-10 15:15:29.313 -0400	fileSystem.fmp12	0	Import completed
+2015-08-10 15:16:39.092 -0400	fileSystem.fmp12	0	Import operations committed
+2015-08-10 15:16:39.094 -0400	fileSystem.fmp12	0	==================================================================
