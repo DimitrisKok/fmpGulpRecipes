@@ -47,3 +47,53 @@
 2015-08-11 10:16:09.796 -0400	fileSystem.fmp12	0	Import of themes from file “beezwaxDemo.fmp12” started
 2015-08-11 10:16:09.939 -0400	fileSystem.fmp12	0	themes imported : 3
 2015-08-11 10:16:09.940 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 14:32:44.680 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 14:32:44.681 -0400	listContent( directoryPath, bashArguments )	0	script steps imported : 1
+2015-08-11 14:32:44.681 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 14:32:57.191 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 14:32:57.192 -0400	listContent( directoryPath, bashArguments )	0	script steps imported : 1
+2015-08-11 14:32:57.192 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 14:35:13.275 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 14:35:13.276 -0400	ls ( directoryPath, args )	0	script steps imported : 1
+2015-08-11 14:35:13.277 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 14:36:12.539 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 14:36:12.541 -0400	ls ( directoryPath, args, targetField )	0	script steps imported : 1
+2015-08-11 14:36:12.541 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 14:50:49.309 -0400	fileSystem.fmp12	0	Import of scripts from clipboard started
+2015-08-11 14:50:49.311 -0400	fileSystem.fmp12	0	Script “writeToFile ( content, targetFilePath, append )” imported as “writeToFile ( content, targetFilePath, append ) 2” since a script named “writeToFile ( content, targetFilePath, append )” already exists.
+2015-08-11 14:50:49.313 -0400	writeToFile ( content, targetFilePath, append ) 2	0	script steps imported : 8
+2015-08-11 14:50:49.313 -0400	fileSystem.fmp12	0	scripts imported : 1
+2015-08-11 14:50:49.314 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:03:55.448 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:03:55.450 -0400	mkdir ( path, name )	0	script steps imported : 10
+2015-08-11 15:03:55.450 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:04:36.445 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:04:36.446 -0400	mkdir ( path, name )	0	script steps imported : 1
+2015-08-11 15:04:36.447 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:08:42.938 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:08:42.940 -0400	mkdir ( path, name )	0	script steps imported : 1
+2015-08-11 15:08:42.940 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:16:16.866 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:16:16.867 -0400	writeToFile ( content, targetFilePath, append )	0	script steps imported : 1
+2015-08-11 15:16:16.867 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:23:28.738 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:23:28.739 -0400	xattr ( filePath, args, attr_name, targetField )	0	script steps imported : 1
+2015-08-11 15:23:28.739 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:25:01.442 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:25:01.443 -0400	open ( filePath )	0	script steps imported : 1
+2015-08-11 15:25:01.443 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:25:25.401 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:25:25.402 -0400	open ( filePath )	0	script steps imported : 3
+2015-08-11 15:25:25.402 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:27:43.432 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:27:43.433 -0400	open ( filePath, app, args )	0	script steps imported : 1
+2015-08-11 15:27:43.433 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 15:28:22.164 -0400	fileSystem.fmp12	0	Import of script steps from clipboard started
+2015-08-11 15:28:22.166 -0400	open ( filePath, app, args )	0	script steps imported : 1
+2015-08-11 15:28:22.166 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 16:22:14.273 -0400	fileSystem.fmp12	0	Import operations started
+2015-08-11 16:22:14.273 -0400	fileSystem.fmp12	0	Import of fields from clipboard started
+2015-08-11 16:22:14.281 -0400	projectStructure	0	fields imported : 8
+2015-08-11 16:22:14.281 -0400	fileSystem.fmp12	0	Import completed
+2015-08-11 16:27:43.586 -0400	fileSystem.fmp12	0	Import operations committed
+2015-08-11 16:27:43.587 -0400	fileSystem.fmp12	0	==================================================================
