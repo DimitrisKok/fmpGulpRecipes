@@ -1,101 +1,122 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang='en' class='no-js'>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel='stylesheet' href='css/reset.css'> <!-- CSS reset -->
+	<link rel='stylesheet' href='css/style.css'> <!-- Resource style -->
+<!--	<script src='js/modernizr.js'></script> --><!-- Modernizr -->
   	
 	<title>Responsive Vertical Timeline</title>
 </head>
 <body>
-	<header>
-		<h1>Responsive Vertical Timeline</h1>
-	</header>
 
-	<section id="cd-timeline" class="cd-container">
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/cd-icon-picture.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Title of section 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 14</span>
+<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'
+	 width='0px' height='0px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+<defs>
+<path id='email' class='st0' d='M24,5H8L4,19v8h24v-8L24,5zM27,26H5v-7h8.75c0,1.242,1.007,2.25,2.25,2.25c1.242,0,2.25-1.008,2.25-2.25H27V26z'/>
+<path id='todo' class='st0' d='M29.548,3.043c-1.081-0.859-2.651-0.679-3.513,0.401L16,16.066l-3.508-4.414c-0.859-1.081-2.431-1.26-3.513-0.401c-1.081,0.859-1.261,2.432-0.401,3.513l5.465,6.875c0.474,0.598,1.195,0.944,1.957,0.944c0.762,0,1.482-0.349,1.957-0.944L29.949,6.556C30.809,5.475,30.629,3.902,29.548,3.043zM24.5,24.5h-17v-17h12.756l2.385-3H6C5.171,4.5,4.5,5.171,4.5,6v20c0,0.828,0.671,1.5,1.5,1.5h20c0.828,0,1.5-0.672,1.5-1.5V12.851l-3,3.773V24.5z' />
+<path id='note' class='st0' d='M27.87,7.863L23.024,4.82l-7.889,12.566l4.842,3.04L27.87,7.863zM14.395,21.25l-0.107,2.855l2.527-1.337l2.349-1.24l-4.672-2.936L14.395,21.25zM29.163,3.239l-2.532-1.591c-0.638-0.401-1.479-0.208-1.882,0.43l-0.998,1.588l4.842,3.042l0.999-1.586C29.992,4.481,29.802,3.639,29.163,3.239zM25.198,27.062c0,0.275-0.225,0.5-0.5,0.5h-19c-0.276,0-0.5-0.225-0.5-0.5v-19c0-0.276,0.224-0.5,0.5-0.5h13.244l1.884-3H5.698c-1.93,0-3.5,1.57-3.5,3.5v19c0,1.93,1.57,3.5,3.5,3.5h19c1.93,0,3.5-1.57,3.5-3.5V11.097l-3,4.776V27.062z'/>
+</defs>
+</svg>
+
+	<section id='cd-timeline' class='cd-container'>
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-picture'>
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='30px' height='30px' xlink:href='#note' />
+				</svg>			</div> <!-- cd-timeline-img -->
+
+			<div class='cd-timeline-content'>
+				<h2>Note</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href='#0' class='cd-read-more'>Read more</a>
+				<span class='cd-date'>May 14</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-movie'>
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='24px' height='24px' xlink:href='#email' />
+				</svg>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Title of section 2</h2>
+			<div class='cd-timeline-content'>
+				<h2>Inbox</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
+				<a href='#0' class='cd-read-more'>Read more</a>
+				<span class='cd-date'>May 8</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/cd-icon-picture.svg" alt="Picture">
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-location'>
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='24px' height='24px' xlink:href='#todo' />
+				</svg>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Title of section 3</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 24</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>Title of section 4</h2>
+			<div class='cd-timeline-content'>
+				<h2>Todo</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Feb 14</span>
+				<a href='#0' class='cd-read-more'>Read more</a>
+				<span class='cd-date'>Apr 24</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
+
+
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-picture'>
+			<!--	<img src='img/cd-icon-picture.svg' alt='Picture'> -->
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='24px' height='24px' xlink:href='#note' />
+				</svg>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Title of section 5</h2>
+			<div class='cd-timeline-content'>
+				<h2>Note</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+				<a href='#0' class='cd-read-more'>Read more</a>
+				<span class='cd-date'>Apr 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-location'>
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='24px' height='24px' xlink:href='#todo' />
+				</svg>
+			</div> <!-- cd-timeline-img -->
+
+			<div class='cd-timeline-content'>
+				<h2>Todo</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Feb 18</span>
+				<a href='#0' class='cd-read-more'>Read more</a>
+				<span class='cd-date'>Apr 13</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
+		<div class='cd-timeline-block'>
+			<div class='cd-timeline-img cd-movie'>
+				<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='24px' height='24px' viewBox='0 0 30 30' style='enable-background:new 0 0 24 24;' xml:space='preserve'>
+					<use width='24px' height='24px' fill="white" xlink:href='#email' />
+				</svg>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Final Section</h2>
+			<div class='cd-timeline-content'>
+				<h2>Outbox</h2>
 				<p>This is the content of the last section</p>
-				<span class="cd-date">Feb 26</span>
+				<span class='cd-date'>Apr 6</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 	</section> <!-- cd-timeline -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src='js/main.js'></script> <!-- Resource jQuery -->
 </body>
 </html>
